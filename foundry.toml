@@ -2,5 +2,13 @@
 src = 'src'
 out = 'out'
 libs = ['lib']
+solc = "0.8.17"
 
-# See more config options https://github.com/foundry-rs/foundry/tree/master/config
+[profile.0_8_13]
+solc = '0.8.13'
+
+[profile.0_8_0]
+solc = '0.8.0'
+
+[profile.0_6_12]
+solc = '0.6.12'
